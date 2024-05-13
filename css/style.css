@@ -1,49 +1,57 @@
-.inline-block{
-    display: inline-block;
-    vertical-align: top;
+
+.navigation{
+    background-color: #D3D9D4;
 }
 
-.logo{
-    width: 23%;
-    padding: 1%;
-    text-align: center;
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    letter-spacing: 1px;
 }
 
-nav {
-    width: 73%;
-    padding: 1%;
-    display: inline-block;
-    padding-inline-end: 0%;
+.inline-block-logo{
+    display: flex;
+    justify-content: center;
 }
 
-ul{
-    width: 50%;
-    margin-left: auto;
+.inline-block-nav{
+    display: flex;
+    justify-content: right;
 }
 
-.heroImg{
-height: 650px;
-padding: 25px;
-}
+nav ul{
+    font-weight: bold;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
 
-.content{
-    width: 500px;
-    margin: 0 auto;
 }
 
 footer{
-    background-color: #373738;
-    padding-inline-start: 30%;
+    padding-inline: 20%;
+    justify-content: center;
+    background-color: #D3D9D4;
+    height: 150px;
 }
 
-li{
-    padding-inline-start: 10%;
-}
 footer ul{
-    display: inline-block;
-    vertical-align: top;
-    padding-inline-start: 5%;
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+    list-style-type: none;
+    
 }
+
+
+.h8{
+    display: flex;
+    font-weight: bold;
+    justify-self: center;
+}
+
 
 .flexContainer{
     display: flex;
@@ -58,10 +66,6 @@ html{
     background-color: #FBF9F3;
 }
 
-.navigation{
-     background-color: #D3D9D4;
-}
-
 .heroImg{
     background-color: #D3D9D4;
 }
@@ -70,27 +74,27 @@ html{
     background-color: #D3D9D4;
 }
 
-footer{
-    background-color: #D3D9D4;
-    width: 300px;
-}
 
 #pManor{
     width: 250px;
     height: 450px;
-    float:right;
+    justify-content: center;
+ 
 }
 
 #CER{
     width: 270px;
     height: 450px;
-    float: right;
+    justify-content: center;
+  
 }
 
 #skillX{
-    width: 270px;
+    width: 250px;
     height: 450px;
-    float:right;
+    overflow-block: auto;
+    justify-content: center;
+
 }
 h3{
     font-size: 25px;
@@ -119,7 +123,6 @@ h1{
    "class1" 
    "class2"
    "class3";
-   
 
 }
 h3{
@@ -151,6 +154,44 @@ button{
     font-family: 'Warownia';
     border-style: none;
 }
+
+
+#class1{
+display: flex;
+padding: 5px;
+flex-direction: row-reverse;
+justify-content: space-between;
+}
+ 
+#class2{
+display: flex;
+padding: 5px;
+flex-direction: row-reverse;
+justify-content: space-between;
+background-color: #FBF9F3;
+}
+
+#class3{
+display: flex;
+padding: 5px;
+flex-direction: row-reverse;
+justify-content: space-between;
+}
+
+
+
+.content{
+   display: flex;
+   flex-direction: row-reverse;
+   align-items: center;
+   justify-content: space-around;
+
+}
+
+.heroImg{
+  height: 550px;
+}
+
 
 @media only screen and (max-width: 600px) {
     body{

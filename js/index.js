@@ -1,5 +1,5 @@
 
-$("#option1").click(function(){
+$("#option1").on("click", function(){
 $(this).scroll();
 
 });
