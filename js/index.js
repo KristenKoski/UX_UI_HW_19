@@ -1,3 +1,5 @@
-$("#option1").on("click", function (){
-    console.log("you clicked on my nav");
+
+$("#option1").click(function(){
+$(this).scroll();
+
 });
