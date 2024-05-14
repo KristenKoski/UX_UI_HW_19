@@ -7,49 +7,56 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 15px;
-    letter-spacing: 1px;
+
 }
 
 .inline-block-logo{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .inline-block-nav{
     display: flex;
-    justify-content: right;
+    flex-direction: row;
+    font-weight: bold;
+    justify-content: space-around;
+    font-size: 20px;
 }
 
-nav ul{
-    font-weight: bold;
-    list-style-type: none;
-    display: flex;
-    flex-direction: row ;
-    justify-content: center;
+nav li{
+    list-style-type: none;  
+}
 
+li{
+    display: flex;
+    flex-direction: row;
 }
 
 footer{
-    padding-inline: 20%;
-    justify-content: center;
     background-color: #D3D9D4;
     height: 150px;
-}
-
-footer ul{
     display: flex;
     flex-direction: row;
-    margin-right: 50px;
-    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
     
 }
 
-
-.h8{
+#footerclass{
+    list-style-type: none;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+h8{
+    display: flex;
+    flex-direction: column;
     font-weight: bold;
-    justify-self: center;
+    justify-content: space-around;
+    font-size: 20px;
+    
 }
 
 
@@ -59,11 +66,18 @@ footer ul{
     margin: 50px;
     padding: 100px;
     flex-direction: row;
+    justify-content: space-between;
 
 }
 
+#dotline{
+    float: left;
+    height: 310px;
+    display: flex;
+}
 html{
     background-color: #FBF9F3;
+    
 }
 
 .heroImg{
@@ -83,27 +97,53 @@ html{
 }
 
 #CER{
-    width: 270px;
+    width: 250px;
     height: 450px;
     justify-content: center;
   
 }
 
 #skillX{
-    width: 250px;
+    width: 260px;
     height: 450px;
     overflow-block: auto;
     justify-content: center;
 
 }
 h3{
-    font-size: 25px;
+    font-size: 35px;
+    font-family: "Ubuntu Regulat", sans-serif;
+    
 }
 
 p{
     font-size: 20px;
-    font-family: "Ubuntu Regulat", sans-serif;
+    font-family: "Ubuntu Regular", sans-serif;
+
     
+}
+
+p8{
+    font-size: 20px;
+    font-family: "Ubuntu Regular", sans-serif;
+    margin-left: 30px;
+    display: block;
+    
+    
+}
+p3{
+    font-family: 'Warownia';
+    letter-spacing:10%;
+    z-index: +1;
+    position: absolute;
+}
+
+
+#Circle{
+    display: flex;
+    position: absolute;
+ 
+
 }
 #finalbutton{
     font-size: 32px;
@@ -111,8 +151,8 @@ p{
     color: #3451AB;
 }
 h1{
-    font-size: 38px;
-    font-family: "Warownia";
+    font-size: 40px;
+    font-family: "Ubuntu bold", sans-serif;
     color: #3451AB;
 }
 .workGrid{
@@ -132,7 +172,7 @@ h3{
 }
 
 h4 {
-    font-size: 32px;
+    font-size: 30px;
     font-family: "Ubuntu bold", sans-serif;
     color: #3451AB;
 }
@@ -141,7 +181,7 @@ button{
     font-size: 17px;
     background: 0%;
     border-color: #DAF561;
-    border-radius: 10px;
+    border-radius: 15px;
     color:#3451AB;
     font-family: Ubuntu, sans-serif;
     
@@ -165,7 +205,7 @@ justify-content: space-between;
  
 #class2{
 display: flex;
-padding: 5px;
+padding: 15px;
 flex-direction: row-reverse;
 justify-content: space-between;
 background-color: #FBF9F3;
@@ -173,11 +213,10 @@ background-color: #FBF9F3;
 
 #class3{
 display: flex;
-padding: 5px;
+padding: 15px;
 flex-direction: row-reverse;
 justify-content: space-between;
 }
-
 
 
 .content{
@@ -190,6 +229,27 @@ justify-content: space-between;
 
 .heroImg{
   height: 550px;
+}
+
+.workGrid{
+    justify-content: center;
+}
+
+.contactMe{
+    background-color: #FBF9F3;
+    height: 240px;
+    margin-top: 2px;
+}
+
+area{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+
+}
+
+.mySkills{
+    height: 500px;
 }
 
 
